@@ -10,9 +10,31 @@ body {
 }
 
 .hero-title {
-    font-size: 5rem;
-    width: 100vw;
+    margin: auto;
+    padding-top: 3rem;
+    font-size: 4.5rem;
+    width: 90vw;
     text-align: center;
-    
-    
+}
+
+.timer {
+    margin: auto;
+    padding-top: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.units {
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
