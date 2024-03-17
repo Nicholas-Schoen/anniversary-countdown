@@ -11,14 +11,18 @@ const year = date.getFullYear();
 const anniversaryDate = new Date(`December 15, ${year} 00:00:00`);
 const now = date.getTime();
 
-let distance = anniversayDate - now;
+let distance = anniversaryDate - now;
 
 function countdownTimer() {
   
 };
+/*
 
 while(distance > 0){
     countdownTimer();
 };
-console.log(anniversaryDate);
+
+*/
+
+console.log(distance);
 
