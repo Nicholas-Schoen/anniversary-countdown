@@ -19,7 +19,7 @@ body {
 
 .timer {
     margin: auto;
-    padding-top: 12rem;
+    padding-top: 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
