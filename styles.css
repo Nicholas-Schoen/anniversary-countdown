@@ -5,10 +5,27 @@
 }
 
 body {
-    background-image: url(assets/anniversary-background-formated.jpg);
+    background-image: url(assets/anniversary-background-mobile.jpg);
+    min-height: 100vh;
     background-size: cover;
 }
+
+.hero-title {
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
 @media screen and (min-width: 1000px) {
+
+    body {
+        background-image: url(assets/anniversary-background-formated.jpg);
+        background-size: cover;
+    }
     
 
 .hero-title {
@@ -51,7 +68,5 @@ body {
     
 }
 
-.hidden {
-    display: none;
-}
+
 }
