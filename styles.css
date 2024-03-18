@@ -26,6 +26,26 @@ body {
     width: 70vw;
     column-gap: 4rem;
     row-gap: 10rem;
+    font-size: 1.75rem;
+}
+
+.number {
+    font-size: 2.25rem;
+}
+
+.anniversary-day {
+    display: flex;
+    flex-direction: column;
+}
+
+.tag-line {
+    margin: auto;
+    text-align: center;
+    padding-top: 16rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.75rem;
+    
 }
 
 .hidden {
@@ -81,5 +101,7 @@ body {
     
 }
 
-
+.hidden {
+    display: none;
+}
 }
