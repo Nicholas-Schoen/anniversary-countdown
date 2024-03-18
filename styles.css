@@ -13,6 +13,19 @@ body {
 .hero-title {
     margin: auto;
     padding-top: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.timer {
+    margin: auto;
+    padding-top: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 70vw;
+    column-gap: 4rem;
+    row-gap: 10rem;
 }
 
 .hidden {
